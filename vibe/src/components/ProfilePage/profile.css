@@ -1,0 +1,66 @@
+.profile_page{
+    font-family: 'Libre Franklin', sans-serif;
+    border:1px solid rgb(212, 212, 212);
+    width:40%;
+    margin:0 auto;
+    padding:5px;
+    margin-top:3%;
+}
+.cover_image_container{
+    position: relative;
+    background-color: lightblue;
+    width:100%;
+    height:100px;
+}
+.main_info{
+    margin-left:10%;
+    display:flex;
+    flex-direction:row;
+    position: relative;
+    top:-20px;
+}
+.profile_name_container{
+    margin: auto 0 auto 3%;
+    width:50%;
+    left:0%;
+}
+.profile_name_container h1{
+    margin: 0;
+    font-size: 20px;
+    text-align: left;
+}
+.profile_name_container p{
+    margin:0;
+    left:0%;
+    text-align: left;
+}
+.profile_img{
+    border-radius: 100%;
+    width: 15%;
+    height: 15%;
+    border:4px solid white;
+}
+.edit_profile{
+    height: 50%;
+    align-self: center;
+    border-radius: 10px;
+    border:1px solid gray;
+    background-color: transparent;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 500;
+    padding:5px 10px;
+    cursor:pointer;
+}
+.edit_profile:hover{
+    background-color: rgb(192, 192, 192);
+}
+.profile_button_group{
+    width:60%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.profile_link{
+    margin:auto;
+}
